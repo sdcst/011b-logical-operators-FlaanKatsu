@@ -23,3 +23,17 @@ You are not a VIP.
 """
 
 VIPNames = ("Guile","Blanka","Christine","Carol","Richard","Daniel","Chun-Li")
+name1 = str("Guile")
+name2 = str("Blanka")
+name3 = str("Christine")
+name4 = str("Carol")
+name5 = str("Richard")
+name6 = str("Daniel")
+name7 = str("Chun-li")
+
+
+Name = str(input("Welsome to Lord Beelzebub's VIP club! Please enter your name: "))
+if Name == name1 or Name == name2 or Name == name3 or Name == name4 or Name == name5 or Name == name6 or Name == name7:
+    print(f"Welcome, {Name}! You are a VIP!")
+else:
+    print("Unfortunately, you are not a VIP, and will now be executed.")

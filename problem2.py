@@ -26,3 +26,5 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+
+import math
